@@ -263,7 +263,11 @@ body{
 }
 
 
+
 @media screen and (max-width:844px) {
+    .container{
+        height: 100%;
+    }
     .hard-skill span{
         font-size: 14px;
     }
@@ -278,6 +282,10 @@ body{
         height: 8%;
     }
     .widget5{
-        height: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 15%;
     }
+    
 }
