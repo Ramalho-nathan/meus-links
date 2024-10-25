@@ -179,8 +179,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 200ms ease-in-out;
 }
-
+.box-large:hover{
+    transform: translateY(-5px);
+}
 .colection-box{
     width: 50%;
     height: 96%;
@@ -198,12 +201,16 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 200ms ease-in-out;
 }
 
 .box i{
     font-size: 35px;
     cursor: pointer;
     transition: 200ms ease-in-out;
+}
+.box:hover{
+    transform: translateY(-3px);
 }
 .box .fa-tiktok:hover{
     color: #FF0855;
@@ -229,6 +236,10 @@ body{
     border-radius: 8px;
     gap: 2rem;
     cursor: pointer;
+    transition: 200ms ease-in-out;
+}
+.widget4:hover{
+    transform: translateY(-5px);
 }
 .icon-website{
     width: 20%;
@@ -267,6 +278,7 @@ body{
 @media screen and (max-width:844px) {
     .container{
         height: 100%;
+        border-radius: 0;
     }
     .hard-skill span{
         font-size: 14px;
