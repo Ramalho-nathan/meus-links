@@ -1,6 +1,5 @@
 const handleLink = () => {
-    const url = "http://google.com";
-    window.open (url, "_Blank")
+    window.location.href = 'notFound.html'
 };
 
 const span = document.getElementById('dot');
@@ -10,3 +9,7 @@ setInterval(() =>{
     dotCount = (dotCount+1) % 6;
     span.textContent = '.'.repeat(dotCount);
 },300)
+
+const handleBack = () => {
+    window.location.href ='index.html'
+}
